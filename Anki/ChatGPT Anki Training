@@ -1,0 +1,27 @@
+Ok, I have taken you cards and edited them to make them easier to learn. Here are my new cards. Please train yourself on them for future use. Please do not make another anki deck.
+
+What is the purpose of an S3 Lifecycle configuration?	To manage objects transitions
+
+What are the parameters you can use to pick objects that are managed using lifecycle configuration? bucket, group of objs in a bucket using prefix or tags
+
+What are the two types of actions in an S3 Lifecycle configuration?	Transition actions  and Expiration actions
+
+What is a transition action in S3 Lifecycle?	An action that changes the storage class of an object.
+
+What is an expiration action in S3 Lifecycle?	An action that deletes objects after a certain time period.
+
+What is a use case for an expiration action?	To delete unneeded object versions
+
+Are S3 Lifecycle rules based on access frequency or time?	S3 Lifecycle rules are time-based.
+
+When should you use Lifecycle policies instead of Intelligent-Tiering?	When object access patterns are predictable and time-driven.
+
+Can S3 Lifecycle configuration apply to versioned objects?	Yes
+
+Can S3 Lifecycle configuration expire noncurrent versions?	Yes, it can delete noncurrent versions after a set time.
+
+What is/are the exception(s) to class transitions when using an S3 lifecycle policy?	One Zone-IA cannot transition into Glacier Instant Retrieval.
+
+What should you consider when transitioning small objects?	Be cautious due to object size minimums that could impact cost.
+
+What is the minimum duration an object must remain in S3 Standard before transitioning?	30 days.
